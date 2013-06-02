@@ -53,4 +53,4 @@ def graph(url):
     plt.savefig('views.png')
     ax.clear()
 
-graph('http://contextminer.org/api.php/campaigns?u=chirags%40rutgers.edu&cid=516&source=youtube&everytime=1&ytid=wm4o1fYtCTQ&page=4&limit=100&fmt=json')
+graph('http://contextminer.org/api.php/campaigns?u=chirags%40rutgers.edu&cid=516&source=youtube&everytime=1&ytid=wm4o1fYtCTQ&page=4&limit=25&fmt=json')
