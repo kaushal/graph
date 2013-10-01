@@ -2,11 +2,18 @@
     <head>
         <script type="text/javascript" src="jscharts.js"></script>
         <script type="text/javascript" src="jquery.js" ></script>
+        <script type="text/javascript" src="getaCM.js"> </script>
+
+        <script type="text/javascript">
+            $(function() {
+                debugger;
+                console.log('hello');
+                graphValues('http://contextminer.org/api.php/campaigns?u=chirags%40rutgers.edu&cid=516&source=youtube&everytime=1&ytid=wm4o1fYtCTQ&page=4&limit=25&fmt=json');
+            });
+        </script>
     </head>
 
     <body>
         <div id="chartid"> </div>
-        <script type="text/javascript" src="chawts.js">
-        </script>
     </body>
 </html>
